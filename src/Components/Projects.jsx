@@ -59,7 +59,7 @@ export default function Projects() {
               </div>
               <div className=" w-2/12">
               <a href={project.url} target="_blank" >
-              <button className="rounded-xl  p-1">Demo</button>
+              <button className="rounded-xl bg-transparent text-white p-1">Demo</button>
               </a></div>
               </div>
               <div id="CardContent" className="p-0 h-72">
