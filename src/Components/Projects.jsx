@@ -6,11 +6,31 @@ export default function Projects() {
   let id = 0;
   let Projects = [
     {
-      title: "Blog: ShareBook",
+      title: "BlueeBerry",
       description:
-        "A React based Platform where you can post and watch others post",
+        "An E-commerce website with multiple pages technology used is Next.js , Sanity and Clerk.",
+      id: id++,
+      url: "https://blueeberry.vercel.app/",
+    },
+    {
+      title: "ShareBook",
+      description:
+        "A post sharing platform build with React.js , Appwrite and Tailwind CSS.",
       id: id++,
       url: "https://blog-share-book.vercel.app/",
+    },
+    {
+      title: "Dynamic Resume Builder",
+      description: "A Resume builder that build resume in minutes",
+      id: id++,
+      url: "https://resumemaker-abdullah.vercel.app/",
+    },
+    {
+      title: "Smart MarkSheet",
+      description:
+        "The Smart Marksheet Platform is an innovative, web-based solution designed to streamline the distribution and verification of academic marksheets. Built with modern web technologies like Next.js. The platform offers a fast, secure, and responsive experience for students, parents, and educators.",
+      id: id++,
+      url: "https://smart-marksheet-qa18.vercel.app/std/marksheet/1456",
     },
     {
       title: "TODO Application",
@@ -18,12 +38,6 @@ export default function Projects() {
         "A React-based task manager edit ,delete and completed Features",
       id: id++,
       url: "https://daily-todo-mu.vercel.app/",
-    },
-    {
-      title: "Dynamic Resume Builder",
-      description: "A Resume builder that build based on users instructions",
-      id: id++,
-      url: "https://cv-generator-flax.vercel.app/",
     },
     {
       title: "Portfolio Website",
