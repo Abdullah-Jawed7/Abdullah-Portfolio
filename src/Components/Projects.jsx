@@ -28,7 +28,7 @@ export default function Projects() {
     {
       title: "Smart MarkSheet",
       description:
-        "The Smart Marksheet Platform is an innovative, web-based solution designed to streamline the distribution and verification of academic marksheets. Built with modern web technologies like Next.js. The platform offers a fast, secure, and responsive experience for students, parents, and educators.",
+        "It is an innovative, web-based solution designed to streamline the distribution and verification of academic marksheets.",// Built with modern web technologies like Next.js. The platform offers a fast, secure, and responsive experience for students, parents, and educators.",
       id: id++,
       url: "https://smart-marksheet-qa18.vercel.app/std/marksheet/1456",
     },

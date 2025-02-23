@@ -7,7 +7,7 @@
 .projectImg0 {
   width: 100%;
   height: 100%;
-  background-image: url(./assets/ShareBookLogo.jpg);
+  background-image: url(./assets/blueeberry.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -15,10 +15,10 @@
 .projectImg1 {
   width: 100%;
   height: 100%;
-  background-image: url(./assets/DailyTodo.jpg);
+  background-image: url(./assets/ShareBookLogo.jpg);
   background-size: cover;
-
   background-repeat: no-repeat;
+  background-position: center;
 }
 .projectImg2 {
   width: 100%;
@@ -29,6 +29,22 @@
   background-position: center;
 }
 .projectImg3 {
+  width: 100%;
+  height: 100%;
+  background-image: url(./assets/smart-marksheet.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.projectImg4 {
+  width: 100%;
+  height: 100%;
+  background-image: url(./assets/DailyTodo.jpg);
+  background-size: cover;
+
+  background-repeat: no-repeat;
+}
+.projectImg5 {
   width: 100%;
   height: 100%;
   background-image: url(./assets/Portfolio.png);

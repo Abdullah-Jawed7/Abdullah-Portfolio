@@ -4,7 +4,7 @@ import Portfolio from './portfolio'
 import { ThemeProvider } from './Components/Theme'
 
 function App() {
-  const [themeMode ,setThemeMode] = useState('light')
+  const [themeMode ,setThemeMode] = useState('dark')
   const lightTheme =() =>{
    setThemeMode('light')
   }

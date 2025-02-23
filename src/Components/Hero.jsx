@@ -27,10 +27,10 @@ export default function Hero() {
   // },[])
 
   const cvBtn = () => {
-    const cvUrl = "/CV_Abdullah.pdf"; // Vite will resolve from the public folder
+    const cvUrl = "/Cv_Abdullah.PDF"; // Vite will resolve from the public folder
     const a = document.createElement("a");
     a.href = cvUrl;
-    a.download = "CV_Abdullah.pdf"; // The file name to download
+    a.download = "Cv_Abdullah.pdf"; // The file name to download
     a.click();
   };
 
