@@ -1,3 +1,4 @@
+```jsx
 import React from "react";
 import "../App.css";
 import { motion } from "framer-motion";
@@ -45,6 +46,13 @@ export default function Projects() {
         "A responsive portfolio website built with React.js and Tailwind CSS.",
       id: id++,
       url: "/",
+    },
+    {
+      title: "Advanced Todo Application",
+      description:
+        "Scripted an advanced todo application.",
+      id: id++,
+      url: "#", // Placeholder as link was null
     },
   ];
   return (
@@ -103,3 +111,5 @@ export default function Projects() {
     </section>
   );
 }
+
+```
