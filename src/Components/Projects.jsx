@@ -69,7 +69,7 @@ export default function Projects() {
             transition={{ duration: 1.2 }}
             key={index}
             className="overflow-hidden group animate-fade-in bg-slate-100  dark:bg-slate-800 transition-colors duration-300"
-            style={{ animationDelay: `${index * 200}ms` }}
+            style={{ animationDelay: (index * 200) + 'ms' }}
           >
             {/* <a href={project.url} target="_blank" > */}
             <div
